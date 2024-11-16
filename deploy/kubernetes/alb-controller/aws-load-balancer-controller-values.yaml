@@ -1,0 +1,16 @@
+clusterName: my-eks-cluster  # Updated to match your Terraform cluster name
+serviceAccount:
+  create: false
+  name: aws-load-balancer-controller
+vpcId: vpc-0aa37797876ea1993  # Updated to your new VPC ID
+region: us-east-1
+podLabels:
+  app: aws-load-balancer-controller
+resources:
+  limits:
+    cpu: 200m
+    memory: 256Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+enableServiceMutatorWebhook: true
