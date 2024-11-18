@@ -97,4 +97,16 @@ docker run -p 3000:3000 --env-file .env weatherly-app
 
 Access the Application: Once the container is running, you can access Weatherly in your browser at http://localhost:3000.
 
+ScreenShots :
+
+[Screenshot 2024-11-18 at 3 24 03 AM](https://github.com/user-attachments/assets/f4381d66-b93f-4929-8b60-dfba12d84724)
+
+![Screenshot 2024-11-18 at 3 24 11 AM](https://github.com/user-attachments/assets/c825eb37-b632-4dbd-ac68-1b1a991b0513)
+
+![Screenshot 2024-11-18 at 3 24 21 AM](https://github.com/user-attachments/assets/ecdf7e5f-ded4-4270-8491-99b01433d2a9)
+
+![Screenshot 2024-11-18 at 3 24 39 AM](https://github.com/user-attachments/assets/69b39f07-1874-473f-aaae-c679ccc575c2)
+
+
+
 
